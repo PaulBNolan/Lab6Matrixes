@@ -23,9 +23,9 @@ public:
 	MyVector3D(sf::Vector2f sfVector);
 	~MyVector3D();
 	std::string toString();
-	double X(); // just return the value of m_x
-	double Y();
-	double Z();
+	double X()const; // just return the value of m_x
+	double Y()const;
+	double Z()const;
 
 	MyVector3D operator +(const MyVector3D right) const;
 	MyVector3D operator -(const MyVector3D right) const;
