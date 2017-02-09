@@ -110,7 +110,7 @@ std::string MyVector3D::toString()
 /// returnt he value of the x component
 /// </summary>
 /// <returns>value of x</returns>
-double MyVector3D::X()
+double MyVector3D::X() const
 {
 	return m_x;
 }
@@ -119,7 +119,7 @@ double MyVector3D::X()
 /// returns the value of Y component
 /// </summary>
 /// <returns>the value of y</returns>
-double MyVector3D::Y()
+double MyVector3D::Y() const
 {
 	return m_y;
 }
@@ -128,7 +128,7 @@ double MyVector3D::Y()
 /// return the value of Z component
 /// </summary>
 /// <returns>value of Z</returns>
-double MyVector3D::Z()
+double MyVector3D::Z() const
 {
 	return m_z;
 }
